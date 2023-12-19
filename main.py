@@ -11,11 +11,11 @@ def chat_with_gpt(prompt, chat_display):
         messages=[{"role": "user", "content": prompt}]
     )
     response_content = response.choices[0].message.content.strip()
-    chat_display.insert(END, f"\nYou:\n\n{prompt}\n\n\n{response_content}\n\n\n")
+    chat_display.insert(END, f"\nYou:\n\n{prompt}\n\n{response_content}\n\n\n")
 
-def submit_user_input(event=None):
+def submit_user_input(event=None):  # event is a tkinter thing that is used to detect when a button is clicked (<Return> in this case, see line 53)
     user_input = user_input_entry.get()
-    if user_input.lower() in ["q", "quit", "exit", "bye", "thanks"]:
+    if user_input.lower() in ["q", "quit", "exit", "bye", "thanks"]:  # quit commands via the user input text box
         root.destroy()
     else:
         chat_with_gpt(user_input, chat_display)
@@ -32,12 +32,12 @@ color_buttonBG = "#42f56f"
 # tkinter main GUI styling
 root = Tk()
 root.title("GPT Language Interpreting Assistant") 
-root.configure(background=color_darkBG)  # Sets main window color
-root.geometry("600x800")  # Set the initial size of the window
-root.grid_rowconfigure(1, weight=1)  # Allow proportional resizing
-root.grid_columnconfigure(0, weight=1)  # Allow proportional resizing
+root.configure(background=color_darkBG)  # sets main window color
+root.geometry("600x800")  # sets the initial size of the window
+root.grid_rowconfigure(1, weight=1)  # allows for proportional resizing of the row
+root.grid_columnconfigure(0, weight=1)  # allows for proportional resizing of the column
 
-# chat log displayed / history
+# chat log display / history
 chat_display_label = Label(root, text="GLIA Chat", font=("Helvetica", 16), background=color_darkBG, foreground=color_altText)
 chat_display_label.grid(row=0, column=0, columnspan=2, padx=20, pady=20, sticky="ew")
 
