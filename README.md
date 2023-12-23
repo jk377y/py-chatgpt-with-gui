@@ -35,9 +35,8 @@ You will need to install the OpenAI Library:<br><br>
 ## Questions
 For Questions, I can be reached at the following:
 <br>
-<br>
 
-<a href="www.linkedin.com/in/james-kelly-software-developer" target="_blank"><img src="https://img.icons8.com/fluency/64/null/linkedin.png" alt="james kelly" height="64" width="64" /></a>&emsp;<a href="https://github.com/jk377y" target="_blank"><img src="https://img.icons8.com/plasticine/64/null/github.png" alt="myGitHub" height="64" width="64" /></a>&emsp;<a href="mailto:jk377y@gmail.com" target="_blank"><img src="https://img.icons8.com/fluency/64/null/apple-mail.png" alt="jk377y" height="64" width="64" /></a>
+<a href="https://www.linkedin.com/in/james-kelly-software-developer/" target="_blank"><img src="https://img.icons8.com/fluency/64/null/linkedin.png" alt="james kelly" height="64" width="64" /></a>&emsp;<a href="https://github.com/jk377y" target="_blank"><img src="https://img.icons8.com/plasticine/64/null/github.png" alt="myGitHub" height="64" width="64" /></a>&emsp;<a href="mailto:jk377y@gmail.com" target="_blank"><img src="https://img.icons8.com/fluency/64/null/apple-mail.png" alt="jk377y" height="64" width="64" /></a>
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
